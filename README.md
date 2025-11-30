@@ -143,9 +143,9 @@ sdoh-llm-classification/
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-📧 Contact
+Contributions are welcome! Please feel free to submit a Pull Request.<br>
+📧 Contact<br>
 
-Author: Yuan-Yuan Olsen
-Email: yuanyuan.a.olsen@healthpartners.com 
+Author: Yuan-Yuan Olsen<br>
+Email: yuanyuan.a.olsen@healthpartners.com <br>
 Project Link: https://github.com/yaolsenarch/SDoH-LLMClassification
