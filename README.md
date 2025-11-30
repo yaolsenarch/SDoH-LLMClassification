@@ -104,30 +104,30 @@ sdoh-llm-classification/
 ```
 ## Getting Started
 1. Environment Setup
-        git clone https://github.com/yaolsenarch/SDoH-LLMClassification.git
-        cd SDoH-LLMClassification
-        - Create virtual environment (Python 3.9+ recommended)
-        python -m venv .venv
-        source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-        - Install dependencies
-        pip install -r requirements.txt
+        git clone https://github.com/yaolsenarch/SDoH-LLMClassification.git<br>
+        cd SDoH-LLMClassification<br>
+        - Create virtual environment (Python 3.9+ recommended)<br>
+        python -m venv .venv<br>
+        source .venv/bin/activate  # On Windows: .venv\Scripts\activate<br>
+        - Install dependencies<br>
+        pip install -r requirements.txt<br>
 2. Azure OpenAI Configuration
-   Set environment variables for Azure OpenAI access:
-        export AZURE_OPENAI_ENDPOINT="https://your-endpoint.openai.azure.com/"
-        export AZURE_OPENAI_API_KEY="your-api-key"
-        export AZURE_OPENAI_DEPLOYMENT="your-deployment-name"
-        export AZURE_OPENAI_API_VERSION="your-api-version"
-3. SSL Certificate Setup (Corporate Environments)
-   If working behind a corporate firewall:
-        export REQUESTS_CA_BUNDLE=/path/to/cacert.pem
-        export SSL_CERT_FILE=/path/to/cacert.pem
-        export HF_HUB_CA_CERTS=/path/to/cacert.pem
-4. Run Notebooks Sequentially
-   Execute notebooks in order:
-        01_data_exploration.ipynb - Understand the dataset and class distribution
-        02_sample_selection.ipynb - Automated few-shot example selection
-        03_prompt_engineering.ipynb - Test prompt variations and select winner
-        04_XGBoostImplementation.ipynb - Explore traditional ML approaches
+   Set environment variables for Azure OpenAI access:<br>
+        export AZURE_OPENAI_ENDPOINT="https://your-endpoint.openai.azure.com/"<br>
+        export AZURE_OPENAI_API_KEY="your-api-key"<br>
+        export AZURE_OPENAI_DEPLOYMENT="your-deployment-name"<br>
+        export AZURE_OPENAI_API_VERSION="your-api-version"<br>
+3. SSL Certificate Setup (Corporate Environments)<br>
+   If working behind a corporate firewall:<br>
+        export REQUESTS_CA_BUNDLE=/path/to/cacert.pem<br>
+        export SSL_CERT_FILE=/path/to/cacert.pem<br>
+        export HF_HUB_CA_CERTS=/path/to/cacert.pem<br>
+4. Run Notebooks Sequentially 
+   Execute notebooks in order:<br>
+        01_data_exploration.ipynb - Understand the dataset and class distribution<br>
+        02_sample_selection.ipynb - Automated few-shot example selection<br>
+        03_prompt_engineering.ipynb - Test prompt variations and select winner<br>
+        04_XGBoostImplementation.ipynb - Explore traditional ML approaches<br>
 
 ## 💡 Key Insights
         - Automated Example Selection Works: No manual curation needed—algorithmic selection of hard examples outperformed hand-picked examples
