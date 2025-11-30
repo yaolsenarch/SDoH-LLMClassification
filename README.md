@@ -85,13 +85,14 @@ Comparing to successful LLM→XGBoost distillation papers (e.g., arXiv 2407.1712
 - Data Source: SDoH-NIL dataset (Hugging Face)
 - Languages: Python 3.9+
 ## 📁 Project Structure
+```
 sdoh-llm-classification/
 ├── README.md
 ├── requirements.txt
 ├── src/
 │   ├── sdoh_data.py          # Data loading and preprocessing
-│   └── llm_util.py            # LLM inference utilities
-│   
+│   ├── llm_util.py            # LLM inference utilities
+│   └── evaluation.py          # Metrics and analysis
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_sample_selection.ipynb      # Automated hard/easy example selection
@@ -100,7 +101,7 @@ sdoh-llm-classification/
 └── results/
     ├── metrics/
     └── visualizations/
-
+```
 ## Getting Started
 1. Environment Setup
         git clone https://github.com/yaolsenarch/SDoH-LLMClassification.git
