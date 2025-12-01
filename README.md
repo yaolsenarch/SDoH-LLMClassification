@@ -91,8 +91,7 @@ sdoh-llm-classification/
 ├── requirements.txt
 ├── src/
 │   ├── sdoh_data.py          # Data loading and preprocessing
-│   ├── llm_util.py            # LLM inference utilities
-│   └── evaluation.py          # Metrics and analysis
+│   └── llm_util.py            # LLM inference utilities
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_sample_selection.ipynb      # Automated hard/easy example selection
